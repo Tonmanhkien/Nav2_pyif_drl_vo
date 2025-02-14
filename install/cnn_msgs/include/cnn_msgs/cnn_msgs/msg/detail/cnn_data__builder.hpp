@@ -1,0 +1,1 @@
+/home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_cpp/cnn_msgs/msg/detail/cnn_data__builder.hpp

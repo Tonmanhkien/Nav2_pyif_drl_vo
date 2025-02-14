@@ -1,0 +1,1 @@
+/home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_c.h

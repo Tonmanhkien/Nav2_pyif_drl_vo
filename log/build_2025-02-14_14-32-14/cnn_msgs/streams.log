@@ -1,0 +1,189 @@
+[0.225s] Invoking command in '/home/kien/colcon_ws/build/cnn_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/cnn_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/cnn_msgs
+[0.233s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.339s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.342s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.642s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.068s] -- Found PythonInterp: /home/kien/colcon_ws/.venv/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.070s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.096s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.097s] -- Using PYTHON_EXECUTABLE: /home/kien/colcon_ws/.venv/bin/python3
+[1.097s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.097s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.122s] -- Found PythonExtra: .so  
+[1.162s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.184s] -- Added test 'lint_cmake' to check CMake code style
+[1.185s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.214s] -- Generating done
+[1.222s] -- Build files have been written to: /home/kien/colcon_ws/build/cnn_msgs
+[1.228s] Invoked command in '/home/kien/colcon_ws/build/cnn_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/cnn_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/cnn_msgs
+[1.230s] Invoking command in '/home/kien/colcon_ws/build/cnn_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/cnn_msgs -- -j16 -l16
+[1.269s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.278s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.287s] [  6%] Built target ament_cmake_python_symlink_cnn_msgs
+[1.549s] running egg_info
+[1.549s] creating cnn_msgs.egg-info
+[1.549s] writing cnn_msgs.egg-info/PKG-INFO
+[1.550s] writing dependency_links to cnn_msgs.egg-info/dependency_links.txt
+[1.550s] writing top-level names to cnn_msgs.egg-info/top_level.txt
+[1.550s] writing manifest file 'cnn_msgs.egg-info/SOURCES.txt'
+[1.553s] reading manifest file 'cnn_msgs.egg-info/SOURCES.txt'
+[1.553s] writing manifest file 'cnn_msgs.egg-info/SOURCES.txt'
+[1.558s] [  6%] Built target cnn_msgs__cpp
+[1.569s] [ 16%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_generator_c.dir/rosidl_generator_c/cnn_msgs/msg/detail/cnn_data__functions.c.o[0m
+[1.569s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.569s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.569s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.586s] [ 19%] Built target ament_cmake_python_build_cnn_msgs_egg
+[1.617s] [ 22%] [32m[1mLinking C shared library libcnn_msgs__rosidl_generator_c.so[0m
+[1.654s] [ 22%] Built target cnn_msgs__rosidl_generator_c
+[1.664s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.664s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.664s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.854s] [ 35%] [32mBuilding CXX object CMakeFiles/cnn_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cnn_msgs/msg/cnn_data__type_support.cpp.o[0m
+[1.869s] [ 38%] [32mBuilding CXX object CMakeFiles/cnn_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cnn_msgs/msg/detail/cnn_data__type_support.cpp.o[0m
+[1.876s] [ 41%] [32mBuilding CXX object CMakeFiles/cnn_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cnn_msgs/msg/detail/dds_fastrtps/cnn_data__type_support.cpp.o[0m
+[1.945s] [ 45%] [32mBuilding CXX object CMakeFiles/cnn_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp.o[0m
+[1.969s] [ 51%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__type_support.c.o[0m
+[1.970s] [ 51%] [32mBuilding CXX object CMakeFiles/cnn_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cnn_msgs/msg/detail/cnn_data__type_support_c.cpp.o[0m
+[1.973s] [ 54%] [32m[1mLinking CXX shared library libcnn_msgs__rosidl_typesupport_c.so[0m
+[2.015s] [ 54%] Built target cnn_msgs__rosidl_typesupport_c
+[2.018s] [ 58%] [32m[1mLinking C shared library libcnn_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.052s] [ 58%] Built target cnn_msgs__rosidl_typesupport_introspection_c
+[2.075s] [ 61%] [32m[1mLinking CXX shared library libcnn_msgs__rosidl_typesupport_cpp.so[0m
+[2.118s] [ 61%] Built target cnn_msgs__rosidl_typesupport_cpp
+[2.214s] [ 64%] [32m[1mLinking CXX shared library libcnn_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.236s] [ 67%] [32m[1mLinking CXX shared library libcnn_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.244s] [ 70%] [32m[1mLinking CXX shared library libcnn_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.298s] [ 70%] Built target cnn_msgs__rosidl_typesupport_introspection_cpp
+[2.321s] [ 70%] Built target cnn_msgs__rosidl_typesupport_fastrtps_cpp
+[2.329s] [ 70%] Built target cnn_msgs__rosidl_typesupport_fastrtps_c
+[2.349s] [ 70%] Built target cnn_msgs
+[2.370s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.790s] [ 74%] Built target cnn_msgs__py
+[2.813s] [ 77%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_generator_py.dir/rosidl_generator_py/cnn_msgs/msg/_cnn_data_s.c.o[0m
+[2.931s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cnn_msgs/libcnn_msgs__rosidl_generator_py.so[0m
+[2.971s] [ 80%] Built target cnn_msgs__rosidl_generator_py
+[2.991s] [ 87%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.992s] [ 87%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.992s] [ 90%] [32mBuilding C object CMakeFiles/cnn_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.066s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cnn_msgs/cnn_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.066s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cnn_msgs/cnn_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.071s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cnn_msgs/cnn_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.098s] [100%] Built target cnn_msgs__rosidl_typesupport_introspection_c__pyext
+[3.099s] [100%] Built target cnn_msgs__rosidl_typesupport_c__pyext
+[3.106s] [100%] Built target cnn_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.119s] Invoked command in '/home/kien/colcon_ws/build/cnn_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/cnn_msgs -- -j16 -l16
+[3.120s] Invoking command in '/home/kien/colcon_ws/build/cnn_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/cnn_msgs
+[3.128s] -- Install configuration: ""
+[3.128s] -- Execute custom install script
+[3.129s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/ament_index/resource_index/rosidl_interfaces/cnn_msgs
+[3.139s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/cnn_data.h
+[3.149s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__functions.h
+[3.159s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__struct.h
+[3.169s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__type_support.h
+[3.178s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.187s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/library_path.sh
+[3.197s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/library_path.dsv
+[3.207s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_fastrtps_c.h
+[3.216s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.226s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_c.h
+[3.236s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.245s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/cnn_data.hpp
+[3.255s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__builder.hpp
+[3.263s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__struct.hpp
+[3.272s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__traits.hpp
+[3.281s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__type_support.hpp
+[3.290s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.301s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.311s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.321s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/include/cnn_msgs/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_cpp.hpp
+[3.331s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/pythonpath.sh
+[3.341s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/pythonpath.dsv
+[3.351s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.360s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.369s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.379s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.390s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/__init__.py
+[3.399s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_c.c
+[3.409s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.418s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.427s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.437s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.446s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.456s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/libcnn_msgs__rosidl_generator_py.so
+[3.465s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg/__init__.py
+[3.474s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg/_cnn_data.py
+[3.483s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg/_cnn_data_s.c
+[3.493s] -- Up-to-date symlink: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.493s] -- Up-to-date symlink: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.493s] -- Up-to-date symlink: /home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/cnn_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.494s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/msg/CNNData.idl
+[3.503s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/msg/CNNData.msg
+[3.513s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/ament_index/resource_index/package_run_dependencies/cnn_msgs
+[3.523s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/ament_index/resource_index/parent_prefix_path/cnn_msgs
+[3.533s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/ament_prefix_path.sh
+[3.542s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/ament_prefix_path.dsv
+[3.551s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/path.sh
+[3.560s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/environment/path.dsv
+[3.570s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/local_setup.bash
+[3.580s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/local_setup.sh
+[3.590s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/local_setup.zsh
+[3.600s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/local_setup.dsv
+[3.609s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/package.dsv
+[3.619s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/ament_index/resource_index/packages/cnn_msgs
+[3.628s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/rosidl_cmake-extras.cmake
+[3.638s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.647s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.656s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.667s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.677s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.686s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.696s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgsConfig.cmake
+[3.706s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgsConfig-version.cmake
+[3.715s] -- Symlinking: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/package.xml
+[3.724s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_generator_c.so
+[3.724s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_generator_c.so" to ""
+[3.725s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_fastrtps_c.so
+[3.725s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.725s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_introspection_c.so
+[3.725s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.725s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_c.so
+[3.726s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_c.so" to ""
+[3.726s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.726s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.726s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_introspection_cpp.so
+[3.726s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.727s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_cpp.so
+[3.727s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_typesupport_cpp.so" to ""
+[3.763s] Listing '/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs'...
+[3.763s] Compiling '/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/__init__.py'...
+[3.763s] Listing '/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg'...
+[3.763s] Compiling '/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg/__init__.py'...
+[3.763s] Compiling '/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs/msg/_cnn_data.py'...
+[3.768s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_generator_py.so
+[3.769s] -- Set runtime path of "/home/kien/colcon_ws/install/cnn_msgs/lib/libcnn_msgs__rosidl_generator_py.so" to ""
+[3.769s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_generator_cExport.cmake
+[3.769s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.770s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.770s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.770s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.770s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.770s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_cExport.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_generator_cppExport.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.771s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.772s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_cppExport.cmake
+[3.772s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/cnn_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.772s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_generator_pyExport.cmake
+[3.772s] -- Installing: /home/kien/colcon_ws/install/cnn_msgs/share/cnn_msgs/cmake/export_cnn_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.775s] Invoked command in '/home/kien/colcon_ws/build/cnn_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/cnn_msgs

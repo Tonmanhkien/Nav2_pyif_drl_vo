@@ -1,0 +1,32 @@
+[0.231s] Invoking command in '/home/kien/colcon_ws/build/cnn_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/cnn_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/cnn_msgs
+[0.283s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.338s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.411s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.414s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.496s] -- Detecting CXX compile features
+[0.496s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.644s] -- Found Python3: /home/kien/colcon_ws/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.704s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.732s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.040s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.040s]   Packages installing interfaces must include
+[1.040s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.040s]   package.xml
+[1.041s] Call Stack (most recent call first):
+[1.041s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.041s] 
+[1.041s] [0m
+[1.041s] -- Configuring incomplete, errors occurred!
+[1.041s] See also "/home/kien/colcon_ws/build/cnn_msgs/CMakeFiles/CMakeOutput.log".
+[1.050s] Invoked command in '/home/kien/colcon_ws/build/cnn_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/cnn_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/cnn_msgs

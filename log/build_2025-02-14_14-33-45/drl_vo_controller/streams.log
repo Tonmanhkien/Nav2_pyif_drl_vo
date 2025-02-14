@@ -1,0 +1,24 @@
+[0.983s] Invoking command in '/home/kien/colcon_ws/build/drl_vo_controller': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/kien/colcon_ws/build/drl_vo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kien/colcon_ws/install/drl_vo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kien/colcon_ws/build/drl_vo_controller/build --no-deps symlink_data
+[1.281s] running develop
+[1.444s] running egg_info
+[1.445s] creating drl_vo_controller.egg-info
+[1.445s] writing drl_vo_controller.egg-info/PKG-INFO
+[1.445s] writing dependency_links to drl_vo_controller.egg-info/dependency_links.txt
+[1.445s] writing entry points to drl_vo_controller.egg-info/entry_points.txt
+[1.445s] writing requirements to drl_vo_controller.egg-info/requires.txt
+[1.445s] writing top-level names to drl_vo_controller.egg-info/top_level.txt
+[1.445s] writing manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+[1.447s] reading manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+[1.448s] writing manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+[1.449s] running build_ext
+[1.449s] Creating /home/kien/colcon_ws/install/drl_vo_controller/lib/python3.10/site-packages/drl-vo-controller.egg-link (link to .)
+[1.450s] Installing controller script to /home/kien/colcon_ws/install/drl_vo_controller/lib/drl_vo_controller
+[1.450s] 
+[1.450s] Installed /home/kien/colcon_ws/build/drl_vo_controller
+[1.450s] running symlink_data
+[1.450s] creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index
+[1.450s] creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index
+[1.451s] creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index/packages
+[1.451s] symbolically linking /home/kien/colcon_ws/build/drl_vo_controller/resource/drl_vo_controller -> /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index/packages
+[1.451s] symbolically linking /home/kien/colcon_ws/build/drl_vo_controller/package.xml -> /home/kien/colcon_ws/install/drl_vo_controller/share/drl_vo_controller
+[1.503s] Invoked command in '/home/kien/colcon_ws/build/drl_vo_controller' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/kien/colcon_ws/build/drl_vo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kien/colcon_ws/install/drl_vo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kien/colcon_ws/build/drl_vo_controller/build --no-deps symlink_data

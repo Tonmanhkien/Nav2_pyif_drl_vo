@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif -- -j16 -l16
+[0.258s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/std_msgs.cpp.o[0m
+[0.258s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/nav_msgs.cpp.o[0m
+[0.258s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/python_interface.cpp.o[0m
+[0.259s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/geo_msgs.cpp.o[0m
+[0.835s] [100%] [32m[1mLinking CXX shared library libnav2_pyif.so[0m
+[0.960s] [100%] Built target nav2_pyif
+[0.976s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif -- -j16 -l16
+[0.992s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif
+[1.003s] -- Install configuration: ""
+[1.003s] -- Execute custom install script
+[1.004s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/include/nav2_pyif/geo_msgs.hpp
+[1.016s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/include/nav2_pyif/nav2_pyif_utils.hpp
+[1.027s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/include/nav2_pyif/nav_msgs.hpp
+[1.037s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/include/nav2_pyif/python_interface.hpp
+[1.046s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/include/nav2_pyif/std_msgs.hpp
+[1.056s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/library_path.sh
+[1.064s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/library_path.dsv
+[1.073s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/ament_index/resource_index/package_run_dependencies/nav2_pyif
+[1.086s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/ament_index/resource_index/parent_prefix_path/nav2_pyif
+[1.099s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/ament_prefix_path.sh
+[1.109s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/ament_prefix_path.dsv
+[1.121s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/path.sh
+[1.133s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/environment/path.dsv
+[1.148s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/local_setup.bash
+[1.161s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/local_setup.sh
+[1.174s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/local_setup.zsh
+[1.184s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/local_setup.dsv
+[1.194s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/package.dsv
+[1.204s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/ament_index/resource_index/packages/nav2_pyif
+[1.216s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.228s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/ament_cmake_export_libraries-extras.cmake
+[1.238s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.248s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/ament_cmake_export_targets-extras.cmake
+[1.258s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/nav2_pyifConfig.cmake
+[1.267s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/nav2_pyifConfig-version.cmake
+[1.278s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/package.xml
+[1.289s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif/lib/libnav2_pyif.so
+[1.290s] -- Set runtime path of "/home/kien/colcon_ws/install/nav2_pyif/lib/libnav2_pyif.so" to ""
+[1.290s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/export_nav2_pyifExport.cmake
+[1.290s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake/export_nav2_pyifExport-noconfig.cmake
+[1.292s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif

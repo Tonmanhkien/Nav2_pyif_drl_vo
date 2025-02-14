@@ -1,0 +1,81 @@
+[0.011s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/nav2_pyif_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/nav2_pyif_controller
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.315s] -- Found nav2_pyif: 0.0.0 (/home/kien/colcon_ws/install/nav2_pyif/share/nav2_pyif/cmake)
+[0.465s] -- Found Python3: /home/kien/colcon_ws/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.524s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)
+[0.700s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[0.742s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.745s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.847s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.925s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.935s] -- Looking for pthread.h
+[1.010s] -- Looking for pthread.h - found
+[1.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.081s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.082s] -- Found Threads: TRUE  
+[1.297s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.297s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.387s] -- Setting build type to Release as none was specified.
+[1.497s] -- Configuring done
+[1.575s] -- Generating done
+[1.583s] -- Build files have been written to: /home/kien/colcon_ws/build/nav2_pyif_controller
+[1.595s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/nav2_pyif_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/nav2_pyif_controller
+[1.598s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif_controller -- -j16 -l16
+[1.652s] [ 60%] [32mBuilding CXX object CMakeFiles/apf_test.dir/test/apf_test.cpp.o[0m
+[1.652s] [ 60%] [32mBuilding CXX object CMakeFiles/apf_test.dir/src/nav2_pyif_controller.cpp.o[0m
+[1.652s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_pyif_controller.dir/src/nav2_pyif_controller.cpp.o[0m
+[6.222s] [ 80%] [32m[1mLinking CXX shared library libnav2_pyif_controller.so[0m
+[6.278s] [100%] [32m[1mLinking CXX executable apf_test[0m
+[6.487s] [100%] Built target nav2_pyif_controller
+[6.561s] [100%] Built target apf_test
+[6.572s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif_controller -- -j16 -l16
+[6.574s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif_controller
+[6.580s] -- Install configuration: "Release"
+[6.581s] -- Execute custom install script
+[6.581s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller//nav2_pyif_controller.xml
+[6.589s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/include/nav2_pyif_controller/nav2_pyif_controller.hpp
+[6.598s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/library_path.sh
+[6.607s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/library_path.dsv
+[6.615s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/ament_index/resource_index/package_run_dependencies/nav2_pyif_controller
+[6.624s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/ament_index/resource_index/parent_prefix_path/nav2_pyif_controller
+[6.632s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/ament_prefix_path.sh
+[6.640s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/ament_prefix_path.dsv
+[6.648s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/path.sh
+[6.657s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/path.dsv
+[6.667s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.bash
+[6.676s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.sh
+[6.685s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.zsh
+[6.694s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.dsv
+[6.702s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.dsv
+[6.712s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/ament_index/resource_index/packages/nav2_pyif_controller
+[6.721s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_pyif_controller
+[6.730s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.739s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[6.747s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.755s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_targets-extras.cmake
+[6.763s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/nav2_pyif_controllerConfig.cmake
+[6.772s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/nav2_pyif_controllerConfig-version.cmake
+[6.781s] -- Symlinking: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.xml
+[6.790s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif_controller/lib/libnav2_pyif_controller.so
+[6.791s] -- Set runtime path of "/home/kien/colcon_ws/install/nav2_pyif_controller/lib/libnav2_pyif_controller.so" to ""
+[6.791s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport.cmake
+[6.791s] -- Installing: /home/kien/colcon_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport-release.cmake
+[6.793s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/kien/colcon_ws/install/nav2_pyif/lib:/home/kien/colcon_ws/install/cnn_msgs/lib:/home/kien/colcon_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/:/opt/ros/humble/lib/ PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif_controller

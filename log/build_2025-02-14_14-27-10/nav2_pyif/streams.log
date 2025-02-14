@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/nav2_pyif -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/nav2_pyif
+[0.235s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.235s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /home/kien/colcon_ws/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.517s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.519s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.544s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.548s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Configuring done
+[0.716s] -- Generating done
+[0.718s] -- Build files have been written to: /home/kien/colcon_ws/build/nav2_pyif
+[0.728s] Invoked command in '/home/kien/colcon_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/kien/colcon_ws/src/nav2_pyif/nav2_pyif -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kien/colcon_ws/install/nav2_pyif
+[0.730s] Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif -- -j16 -l16
+[0.782s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/nav_msgs.cpp.o[0m
+[0.783s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/python_interface.cpp.o[0m
+[0.783s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/std_msgs.cpp.o[0m
+[0.783s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_pyif.dir/src/geo_msgs.cpp.o[0m
+[1.440s] [100%] [32m[1mLinking CXX shared library libnav2_pyif.so[0m
+[1.529s] [100%] Built target nav2_pyif

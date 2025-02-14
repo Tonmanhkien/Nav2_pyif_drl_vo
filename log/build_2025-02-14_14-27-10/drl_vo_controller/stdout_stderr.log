@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating drl_vo_controller.egg-info
+writing drl_vo_controller.egg-info/PKG-INFO
+writing dependency_links to drl_vo_controller.egg-info/dependency_links.txt
+writing entry points to drl_vo_controller.egg-info/entry_points.txt
+writing requirements to drl_vo_controller.egg-info/requires.txt
+writing top-level names to drl_vo_controller.egg-info/top_level.txt
+writing manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+reading manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+writing manifest file 'drl_vo_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kien/colcon_ws/install/drl_vo_controller/lib/python3.10/site-packages/drl-vo-controller.egg-link (link to .)
+
+Installed /home/kien/colcon_ws/build/drl_vo_controller
+running symlink_data
+creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index
+creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index
+creating /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index/packages
+symbolically linking /home/kien/colcon_ws/build/drl_vo_controller/resource/drl_vo_controller -> /home/kien/colcon_ws/install/drl_vo_controller/share/ament_index/resource_index/packages
+symbolically linking /home/kien/colcon_ws/build/drl_vo_controller/package.xml -> /home/kien/colcon_ws/install/drl_vo_controller/share/drl_vo_controller

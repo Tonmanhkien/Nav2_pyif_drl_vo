@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cnn_msgs__py",
+		"source" : "/home/kien/colcon_ws/build/cnn_msgs/cnn_msgs__py"
+	}
+}

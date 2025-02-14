@@ -1,0 +1,1 @@
+/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs/msg/CNNData.msg
