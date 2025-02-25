@@ -1,1 +1,0 @@
-/home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_introspection_c/cnn_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

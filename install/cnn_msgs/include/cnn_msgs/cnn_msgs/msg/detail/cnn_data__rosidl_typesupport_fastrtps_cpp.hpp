@@ -1,1 +1,0 @@
-/home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_fastrtps_cpp/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_fastrtps_cpp.hpp

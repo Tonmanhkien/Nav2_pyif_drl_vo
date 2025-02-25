@@ -1,1 +1,0 @@
-/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

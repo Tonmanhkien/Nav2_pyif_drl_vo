@@ -1,1 +1,0 @@
-/home/kien/colcon_ws/src/nav2_pyif/nav2_pyif/include/nav2_pyif/geo_msgs.hpp
