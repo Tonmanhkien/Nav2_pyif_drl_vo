@@ -77,7 +77,7 @@ rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp: /opt/ros/humble/sh
 rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp: rosidl_adapter/cnn_msgs/msg/CNNData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kien/colcon_ws/build/cnn_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/home/kien/colcon_ws/.venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/home/kien/.pyenv/shims/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 CMakeFiles/cnn_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp.o: CMakeFiles/cnn_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/cnn_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp.o: rosidl_typesupport_c/cnn_msgs/msg/cnn_data__type_support.cpp

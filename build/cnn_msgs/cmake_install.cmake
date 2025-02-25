@@ -210,8 +210,8 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/home/kien/colcon_ws/.venv/bin/python3" "-m" "compileall"
-        "/home/kien/colcon_ws/install/cnn_msgs/lib/python3.10/site-packages/cnn_msgs"
+        "/home/kien/.pyenv/shims/python3" "-m" "compileall"
+        "/home/kien/colcon_ws/install/cnn_msgs/local/lib/python3.10/dist-packages/cnn_msgs"
       )
 endif()
 

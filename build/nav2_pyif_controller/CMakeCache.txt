@@ -277,7 +277,7 @@ PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a program.
-Python3_EXECUTABLE:FILEPATH=/home/kien/colcon_ws/.venv/bin/python3
+Python3_EXECUTABLE:FILEPATH=/home/kien/.pyenv/shims/python3
 
 //Select ROS middleware implementation to link against
 RMW_IMPLEMENTATION:STRING=rmw_fastrtps_cpp
@@ -779,7 +779,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ro
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/kien/colcon_ws/.venv/bin/python3][cfound components: Interpreter ][v3.10.12()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/kien/.pyenv/shims/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
@@ -837,10 +837,10 @@ _OPENSSL_openssl_INCLUDEDIR:INTERNAL=
 _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/kien/colcon_ws/.venv/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/kien/.pyenv/shims/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/home/kien/colcon_ws/.venv/lib/python3.10/site-packages;/home/kien/colcon_ws/.venv/lib/python3.10/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=cb64291558465d9c416d106b93b8be15
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=3323e16874333666329c5f016f0161ec
 //Index for unique symlink install targets
 __AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl

@@ -242,7 +242,7 @@ PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a program.
-Python3_EXECUTABLE:FILEPATH=/home/kien/colcon_ws/.venv/bin/python3
+Python3_EXECUTABLE:FILEPATH=/home/kien/.pyenv/shims/python3
 
 //Name of the computer/site where compile is being run
 SITE:STRING=kien
@@ -528,7 +528,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/kien/colcon_ws/.venv/bin/python3][cfound components: Interpreter ][v3.10.12()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/kien/.pyenv/shims/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpython3.10.so][/usr/include/python3.10][v3.10.12()]
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
@@ -537,10 +537,10 @@ PYTHON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY_DEBUG
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-_Python3_EXECUTABLE:INTERNAL=/home/kien/colcon_ws/.venv/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/kien/.pyenv/shims/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/home/kien/colcon_ws/.venv/lib/python3.10/site-packages;/home/kien/colcon_ws/.venv/lib/python3.10/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=cb64291558465d9c416d106b93b8be15
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=3323e16874333666329c5f016f0161ec
 //Index for unique symlink install targets
 __AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 

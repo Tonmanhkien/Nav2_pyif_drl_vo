@@ -1,4 +1,0 @@
-Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif -- -j16 -l16
-Invoked command in '/home/kien/colcon_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kien/colcon_ws/build/nav2_pyif -- -j16 -l16
-Invoking command in '/home/kien/colcon_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif
-Invoked command in '/home/kien/colcon_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kien/colcon_ws/build/nav2_pyif

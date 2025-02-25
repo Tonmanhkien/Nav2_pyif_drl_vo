@@ -79,7 +79,7 @@ rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__rosidl_typesupp
 rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_c.h: rosidl_adapter/cnn_msgs/msg/CNNData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kien/colcon_ws/build/cnn_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/home/kien/colcon_ws/.venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_introspection_c__arguments.json
+	/home/kien/.pyenv/shims/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__type_support.c: rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/cnn_msgs/msg/detail/cnn_data__type_support.c

@@ -88,7 +88,7 @@ rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/cnn_msgs/msg/CNNData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kien/colcon_ws/build/cnn_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/kien/colcon_ws/build/cnn_msgs/cnn_msgs__py && /home/kien/colcon_ws/.venv/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/kien/colcon_ws/build/cnn_msgs/cnn_msgs__py && /home/kien/.pyenv/shims/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/cnn_msgs/_cnn_msgs_s.ep.rosidl_typesupport_introspection_c.c

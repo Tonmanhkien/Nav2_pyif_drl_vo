@@ -343,19 +343,19 @@ ament_cmake_symlink_install_files("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" 
 # install(FILES "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/cnn_msgs/environment")
 ament_cmake_symlink_install_files("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" FILES "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/cnn_msgs/environment")
 
-# install(DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs/cnn_msgs.egg-info/" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs/cnn_msgs.egg-info/" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs-0.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs/cnn_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs/cnn_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py/cnn_msgs/" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py/cnn_msgs/" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py/cnn_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/kien/colcon_ws/src/nav2_pyif/cnn_msgs" DIRECTORY "/home/kien/colcon_ws/build/cnn_msgs/rosidl_generator_py/cnn_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "cnn_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs")
+# install("TARGETS" "cnn_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs")
 include("/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "cnn_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs")
+# install("TARGETS" "cnn_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs")
 include("/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "cnn_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.10/site-packages/cnn_msgs")
+# install("TARGETS" "cnn_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/cnn_msgs")
 include("/home/kien/colcon_ws/build/cnn_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/kien/colcon_ws/build/cnn_msgs/rosidl_adapter/cnn_msgs/msg/CNNData.idl" "DESTINATION" "share/cnn_msgs/msg")

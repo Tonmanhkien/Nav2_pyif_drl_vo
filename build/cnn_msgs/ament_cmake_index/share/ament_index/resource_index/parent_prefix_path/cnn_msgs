@@ -1,1 +1,1 @@
-/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble
+/home/kien/colcon_ws/install/nav2_pyif_controller:/home/kien/colcon_ws/install/nav2_pyif:/home/kien/colcon_ws/install/drl_vo_controller:/home/kien/colcon_ws/install/cnn_msgs:/home/kien/colcon_ws/install/apf_python_example:/opt/ros/humble

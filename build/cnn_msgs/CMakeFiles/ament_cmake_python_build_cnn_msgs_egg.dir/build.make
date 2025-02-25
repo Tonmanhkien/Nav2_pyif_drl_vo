@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_cnn_msgs_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_cnn_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_cnn_msgs_egg:
-	cd /home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs && /home/kien/colcon_ws/.venv/bin/python3 setup.py egg_info
+	cd /home/kien/colcon_ws/build/cnn_msgs/ament_cmake_python/cnn_msgs && /home/kien/.pyenv/shims/python3 setup.py egg_info
 
 ament_cmake_python_build_cnn_msgs_egg: CMakeFiles/ament_cmake_python_build_cnn_msgs_egg
 ament_cmake_python_build_cnn_msgs_egg: CMakeFiles/ament_cmake_python_build_cnn_msgs_egg.dir/build.make
