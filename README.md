@@ -27,5 +27,7 @@ This repository integrates the ROS 2 Navigation Stack (Nav2) with a Deep Reinfor
 
 4. **Run**:
    ```bash
+   cd /Nav2_pyif_drl_vo
+   . colcon_build
    ros2 launch nav2_bringup tb3_simulation_launch.py params_file:=<>/src/param.yaml headless:=True^C
    
