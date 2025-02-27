@@ -20,8 +20,12 @@ This repository integrates the ROS 2 Navigation Stack (Nav2) with a Deep Reinfor
 3. **Install Necessary Libraries**:
 
    
-Ensure you have the required Python libraries installed:
+   Ensure you have the required Python libraries installed:
+   
+   ```bash
+   pip install stable-baselines3 numpy==1.26
 
-```bash
-pip install stable-baselines3 numpy==1.26
- 
+4. **Run**:
+   ```bash
+   ros2 launch nav2_bringup tb3_simulation_launch.py params_file:=<>/src/param.yaml headless:=True^C
+   
