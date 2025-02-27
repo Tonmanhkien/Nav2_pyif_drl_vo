@@ -3,10 +3,10 @@ setup.cfg
 setup.py
 drl_vo_controller/__init__.py
 drl_vo_controller/cnn_data_pub.py
-drl_vo_controller/controller.py
 drl_vo_controller/controllerv2.py
 drl_vo_controller/custom_cnn_full.py
 drl_vo_controller/drl_vo_controller.py
+drl_vo_controller/test_logger.py
 drl_vo_controller/test_model.py
 drl_vo_controller/yolov3_node.py
 drl_vo_controller.egg-info/PKG-INFO

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'controller=drl_vo_controller.drl_vo_controller:main',
+            'test_logger=drl_vo_controller.test_logger:main'
         ],
     },
 )
