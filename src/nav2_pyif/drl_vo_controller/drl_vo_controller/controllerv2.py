@@ -125,6 +125,10 @@ def computeVelocityCommands(occupancy_grid, pose, twist):
         scan_avg = scan_avg.reshape(1600)
         scan_avg_map = np.matlib.repmat(scan_avg, 1, 4)
         scan_norm = np.array(scan_avg_map).reshape(6400)
+        s_min = 0
+        s_max = 30
+        scan_norm = 2 * (scan_norm - s_min) / (s_max - s_min) - 1
+
         #goal
         #MaxAbsScaler :
         g_min = -2
